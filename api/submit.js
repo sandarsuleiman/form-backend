@@ -16,7 +16,7 @@ export default async function handler(req, res) {
 
     for (let email of emails) {
       await resend.emails.send({
-        from: "Form System <onboarding@resend.dev>",
+        from: "lingdavid24@gmail.com
         to: email,
         subject: "New Form Submission",
         text: `
